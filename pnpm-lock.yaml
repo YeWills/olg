@@ -86,7 +86,7 @@ importers:
 
   packages/olg:
     specifiers:
-      '@olgjs/utils': 0.0.2
+      '@olgjs/utils': 0.0.3
     dependencies:
       '@olgjs/utils': link:../utils
 
