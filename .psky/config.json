@@ -1,0 +1,12 @@
+{
+  "title": "ts monorepo工具库",
+  "insidetpl": "monorepo-ts-cli",
+  "prompts": [
+    {
+      "name": "pkgName",
+      "type": "text",
+      "message": "请输入工程名",
+      "default": "hellworld"
+    }
+  ]
+}

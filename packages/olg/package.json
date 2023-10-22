@@ -1,0 +1,37 @@
+{
+  "name": "olg",
+  "version": "0.0.2",
+  "description": "fast create project",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "olg": "bin/create-olg.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "olg-scripts build",
+    "build:deps": "olg-scripts bundleDeps",
+    "debug": "pnpm run build && yalc publish",
+    "dev": "olg-scripts todo dev",
+    "test": "olg-scripts jest-turbo",
+    "tsc": "tsc",
+    "yalc": "yalc publish"
+  },
+  "dependencies": {
+    "@olgjs/utils": "0.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
+  ]
+}
