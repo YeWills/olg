@@ -90,7 +90,7 @@ importers:
 
   packages/olg:
     specifiers:
-      '@olgjs/utils': 1.1.0
+      '@olgjs/utils': 1.2.0
     dependencies:
       '@olgjs/utils': link:../utils
 
