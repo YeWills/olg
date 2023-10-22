@@ -1,6 +1,6 @@
 {
   "name": "olg",
-  "version": "0.0.3",
+  "version": "1.1.0",
   "description": "fast create project",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "yalc": "yalc publish"
   },
   "dependencies": {
-    "@olgjs/utils": "0.0.3"
+    "@olgjs/utils": "1.1.0"
   },
   "publishConfig": {
     "access": "public"
