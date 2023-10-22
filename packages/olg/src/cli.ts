@@ -13,6 +13,8 @@ if (args.version && !args._[0]) {
   const local = isLocalDev() ? chalk.cyan('@local') : '';
   const { name, version } = require('../package.json');
   console.log(`${name}@${version}${local}`);
+} else if (args._[0] === 'help') {
+  console.log(`olg git -d branchName 删除本地分支branchName `);
 } else {
   require('./')
     .default({
