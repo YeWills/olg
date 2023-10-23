@@ -2,9 +2,11 @@
   "name": "olg-cli",
   "version": "1.2.7",
   "description": "fast create project",
+  "homepage": "https://github.com/YeWills/olg.git/tree/main/packages/psky#readme",
+  "bugs": "https://github.com/YeWills/olg.git/issues",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/YeWills/olg.git"
   },
   "license": "MIT",
   "main": "dist/index.js",
@@ -38,6 +40,6 @@
     "access": "public"
   },
   "authors": [
-    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)"
+    "huangzhi <601661706@qq.com>"
   ]
 }
