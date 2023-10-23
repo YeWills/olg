@@ -90,7 +90,7 @@ importers:
 
   packages/olg:
     specifiers:
-      '@olgjs/utils': 1.2.7
+      '@olgjs/utils': 1.2.8
       '@types/prompts': ^2.0.14
       git-repo-info: ^2.1.1
       prompts: 2.4.2
