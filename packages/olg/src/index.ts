@@ -1,7 +1,6 @@
-import { yParser } from '@olgjs/utils';
+import { yParser, logger } from '@olgjs/utils';
 import getGitRepoInfo from 'git-repo-info';
 import prompts from 'prompts';
-import { logger } from '@olgjs/utils';
 // const assert = require('assert')
 import 'zx/globals';
 

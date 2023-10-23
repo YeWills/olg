@@ -21,24 +21,11 @@
     "yalc": "yalc publish"
   },
   "dependencies": {
-    "chokidar": "3.5.3",
-    "pino": "7.11.0"
-  },
-  "devDependencies": {
-    "@hapi/joi": "17.1.1",
-    "@types/color": "3.0.3",
-    "@types/cross-spawn": "6.0.2",
-    "@types/debug": "4.1.7",
-    "@types/hapi__joi": "17.1.8",
-    "@types/lodash": "4.14.182",
-    "@types/mustache": "4.1.2",
-    "@types/prompts": "^2.0.14",
-    "@types/rimraf": "3.0.2",
-    "@types/semver": "7.3.9",
     "address": "1.1.2",
     "axios": "0.27.2",
     "chalk": "2.4.2",
     "cheerio": "1.0.0-rc.10",
+    "chokidar": "3.5.3",
     "color": "4.2.3",
     "cross-spawn": "7.0.3",
     "debug": "4.3.4",
@@ -51,6 +38,7 @@
     "import-lazy": "4.0.0",
     "lodash": "4.17.21",
     "mustache": "4.2.0",
+    "pino": "7.11.0",
     "pirates": "4.0.5",
     "pkg-up": "4.0.0",
     "portfinder": "1.0.28",
@@ -61,6 +49,18 @@
     "semver": "7.3.6",
     "strip-ansi": "7.0.1",
     "yargs-parser": "21.0.1"
+  },
+  "devDependencies": {
+    "@hapi/joi": "17.1.1",
+    "@types/color": "3.0.3",
+    "@types/cross-spawn": "6.0.2",
+    "@types/debug": "4.1.7",
+    "@types/hapi__joi": "17.1.8",
+    "@types/lodash": "4.14.182",
+    "@types/mustache": "4.1.2",
+    "@types/prompts": "^2.0.14",
+    "@types/rimraf": "3.0.2",
+    "@types/semver": "7.3.9"
   },
   "publishConfig": {
     "access": "public"
