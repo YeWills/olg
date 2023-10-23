@@ -1,6 +1,6 @@
 {
   "name": "olg-cli",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "fast create project",
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
     "yalc": "yalc publish"
   },
   "dependencies": {
-    "@olgjs/utils": "1.2.4",
+    "@olgjs/utils": "1.2.5",
     "zx": "4.3.0"
   },
   "publishConfig": {
