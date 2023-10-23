@@ -1,8 +1,10 @@
 import { yParser, logger } from '@olgjs/utils';
 import getGitRepoInfo from 'git-repo-info';
 import prompts from 'prompts';
-// const assert = require('assert')
 import 'zx/globals';
+// ts混合使用js，需要使用 require，参考 https://ouromoros.github.io/chinese/2020/10/24/Nodejs%E9%A1%B9%E7%9B%AETypeScript%E4%B8%8EJavaScript%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/
+const config = require('./config.js');
+const inquirer = require('inquirer');
 
 // 判断本地是否有指定的branch分支
 const isBranchExistInLocal = (allbranchStr: string, branch: string) => {
@@ -87,6 +89,25 @@ export default async ({ args }: { args: IArgs }) => {
       logger.info(`已成功删除${deleteBranch}本地分支！`);
     }
     return;
+  }
+
+  let cliType = '';
+  if (!args._.length) {
+    const answer = await inquirer.prompt({
+      type: 'list',
+      name: 'cliType',
+      message: '请选择要使用的命令：',
+      default: config.cmdList.defaultVal,
+      choices: config.cmdList.list,
+    });
+    cliType = answer.cliType;
+    const cliItem = config.cmdList.list.find((info: any) => {
+      return info.value === cliType;
+    });
+    if (cliItem) {
+      await cliItem.cliInfo.cli();
+    }
+    process.exit(0);
   }
 
   logger.warn(`请输入正确命令，如需帮助，执行命令 olg --help`);
