@@ -89,7 +89,7 @@ import { assert, eachPkg, getPkgs } from './.internal/utils';
 
   if (!isDebug) {
     // logger.event('git push');
-    await $`git push origin ${branch} --tags`;
+    // await $`git push origin ${branch} --tags`;
   }
 
   // npm publish
