@@ -22,6 +22,7 @@ importers:
       '@types/yargs-parser': ^21.0.2
       '@vercel/ncc': 0.33.3
       chalk: 2.4.2
+      cross-spawn: 7.0.3
       dts-packer: ^0.0.3
       dumi: ^2.2.1
       expect-playwright: ^0.8.0
@@ -64,6 +65,7 @@ importers:
       '@types/yargs-parser': 21.0.2
       '@vercel/ncc': 0.33.3
       chalk: 2.4.2
+      cross-spawn: 7.0.3
       dts-packer: 0.0.3
       dumi: 2.2.13_msu3tyhjh5sycu4lgpzm4mpl7e
       expect-playwright: 0.8.0
@@ -7660,7 +7662,7 @@ packages:
     dev: true
 
   /execa/0.7.0:
-    resolution: {integrity: sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c=}
+    resolution: {integrity: sha512-RztN09XglpYI7aBBrJCPW95jEH7YF1UEPOoX9yDhUTPdp7mK+CQvnLTuD10BNXZ3byLTu2uehZ8EcKT/4CGiFw==}
     engines: {node: '>=4'}
     dependencies:
       cross-spawn: 5.1.0
