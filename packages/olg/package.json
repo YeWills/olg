@@ -1,6 +1,6 @@
 {
   "name": "olg-cli",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "fast create project",
   "homepage": "https://github.com/YeWills/olg.git/tree/main/packages/psky#readme",
   "bugs": "https://github.com/YeWills/olg.git/issues",
@@ -28,7 +28,7 @@
     "yalc": "yalc publish"
   },
   "dependencies": {
-    "@olgjs/utils": "1.2.9",
+    "@olgjs/utils": "1.2.10",
     "cowsay2": "^2.0.4",
     "git-repo-info": "^2.1.1",
     "inquirer": "^4.0.0",
