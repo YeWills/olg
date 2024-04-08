@@ -1,6 +1,5 @@
 ## olg
 是一个工具包集合，采用monorepo方式，基于`pnpm lerna turbo ts`，使用`turbo`的缓存编译功能，极大地提高了编译速度，给开发带来很大便利。
->本工程也是一个经典的monorepo方式的工程范例，包含了完整的开发、编译、发布、husky、文档集成。
 
 目前集成的功能有：
 - 获取项目依赖包(node module)的信息,如版本信息、package.json;
